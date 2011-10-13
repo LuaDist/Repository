@@ -1,0 +1,43 @@
+#!/bin/sh
+# Copyright (C) 2011 LuaDist
+# Redistribution and use of this file is allowed according to the terms of the MIT license.
+# For details see the COPYRIGHT file distributed with LuaDist.
+# Please note that the package source code is licensed under its own license.
+# dsa
+# Install all dists from repository into current directory
+# In case it is called in the repository it will install into _install folder
+#
+REPO=`dirname "$(cd ${0%/*} && echo $PWD/${0##*/})"`
+DEPL=$PWD
+DISTS=$*
+
+# If in the repository install to _install
+if [ "$REPO" = "$DEPL" ]
+then
+  DEPL=$DEPL/_install
+fi
+
+# Help
+if [ "$1" = "" ]
+then
+  echo "LuaDist direct install utility."
+  echo "This utility will install LuaDist modules into current directory. If called in the repository it will install into '_install' folder to avoid collisions. Modules to install are identified by name or name-version arguments. The installation will use sources from the Repository if they are available, if not it will look for the git repository directly."
+  echo "WARNING: This utility does not automatically install dependencies. Consider bootstrapping the automated deployment utility."
+  echo "USE: ./install [module_name-module_ver] [module_name]"
+  exit
+fi
+
+# Prevent root install
+if [ "$DEPL" = "/" ]
+then
+  echo "WARNING: LuaDist was not designed to install into the host operating system. Consider using /usr/local or /opt/luadist instead."
+  exit
+fi
+
+echo "Installing: $*"
+echo "Destination: $DEPL"
+echo "Repository: $REPO"
+
+# Install (this may fail on 2.8.2 cmake, but will generate successful install)
+mkdir -p "$DEPL/tmp/install" && cd "$DEPL/tmp/install" && cmake "$REPO" -DCMAKE_INSTALL_PREFIX="$DEPL" -DDISTS="$DISTS"
+cmake --build "$DEPL/tmp/install" --target install

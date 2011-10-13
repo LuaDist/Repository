@@ -1,0 +1,36 @@
+## Global settings for LuaDist
+# NOTE these settings HAVE to be CACHE FORCE to take precedence.
+
+# Basic (Obrained from master script)
+set ( CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}" CACHE STRING "Installation destination." FORCE )
+set ( CMAKE_BUILD_TYPE "${CMAKE_BUILD_TYPE}" CACHE STRING "Build type." FORCE )
+set ( CMAKE_INCLUDE_PATH "${CMAKE_INSTALL_PREFIX}/include" CACHE STRING "Where to search for headers." FORCE )
+set ( CMAKE_LIBRARY_PATH "${CMAKE_INSTALL_PREFIX}/lib" CACHE STRING "Where to search for libraries." FORCE )
+set ( CMAKE_PROGRAM_PATH "${CMAKE_INSTALL_PREFIX}/bin" CACHE STRING "Where to search for applications." FORCE )
+
+# RPath functionality
+set ( CMAKE_SKIP_BUILD_RPATH FALSE CACHE STRING "" FORCE )
+set ( CMAKE_BUILD_WITH_INSTALL_RPATH FALSE CACHE STRING "" FORCE )
+set ( CMAKE_INSTALL_RPATH $ORIGIN/../lib CACHE STRING "" FORCE )
+set ( CMAKE_INSTALL_RPATH_USE_LINK_PATH TRUE CACHE STRING "" FORCE )
+set ( CMAKE_INSTALL_NAME_DIR @executable_path/../lib CACHE STRING "" FORCE )
+
+# Install Paths
+set ( INSTALL_BIN bin CACHE STRING "Where to install binaries to." FORCE )
+set ( INSTALL_LIB lib CACHE STRING "Where to install libraries to." FORCE )
+set ( INSTALL_INC include CACHE STRING "Where to install headers to." FORCE )
+set ( INSTALL_ETC etc CACHE STRING "Where to store configuration files." FORCE )
+set ( INSTALL_SHARE share CACHE STRING "Where to install package data." FORCE )
+set ( INSTALL_LMOD lib/lua CACHE STRING "Directory to install Lua modules." FORCE )
+set ( INSTALL_CMOD lib/lua CACHE STRING "Directory to install Lua binary modules." FORCE )
+
+# Install skip options
+set ( SKIP_TESTING OFF CACHE STRING "Do not test packages." FORCE )
+set ( SKIP_LUA_WRAPPER OFF CACHE STRING "Do not generate binary wrappers." FORCE )
+set ( SKIP_INSTALL_DATA OFF CACHE STRING "Do not install any package data." FORCE )
+set ( SKIP_INSTALL_DOC OFF CACHE STRING "Do not install documentation." FORCE )
+set ( SKIP_INSTALL_EXAMPLE OFF CACHE STRING "Do not install examples." FORCE )
+set ( SKIP_INSTALL_TEST OFF CACHE STRING "Do not install tests." FORCE )
+set ( SKIP_INSTALL_FOO OFF CACHE STRING "Do not install additional files." FORCE )
+
+# Other (eg. cross-compile settings)
