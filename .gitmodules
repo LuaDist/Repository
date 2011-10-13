@@ -1,0 +1,618 @@
+[submodule "zlib"]
+	path = zlib
+	url = git://github.com/LuaDist/zlib.git
+[submodule "zip"]
+	path = zip
+	url = git://github.com/LuaDist/zip.git
+[submodule "xstring"]
+	path = xstring
+	url = git://github.com/LuaDist/xstring.git
+[submodule "xssfilter"]
+	path = xssfilter
+	url = git://github.com/LuaDist/xssfilter.git
+[submodule "xavante"]
+	path = xavante
+	url = git://github.com/LuaDist/xavante.git
+[submodule "wxlua"]
+	path = wxlua
+	url = git://github.com/LuaDist/wxlua.git
+[submodule "wsapi-xavante"]
+	path = wsapi-xavante
+	url = git://github.com/LuaDist/wsapi-xavante.git
+[submodule "wsapi-fcgi"]
+	path = wsapi-fcgi
+	url = git://github.com/LuaDist/wsapi-fcgi.git
+[submodule "versium"]
+	path = versium
+	url = git://github.com/LuaDist/versium.git
+[submodule "venv"]
+	path = venv
+	url = git://github.com/LuaDist/venv.git
+[submodule "unzip"]
+	path = unzip
+	url = git://github.com/LuaDist/unzip.git
+[submodule "toluapp"]
+	path = toluapp
+	url = git://github.com/LuaDist/toluapp.git
+[submodule "tokyocabinet_lua"]
+	path = tokyocabinet_lua
+	url = git://github.com/LuaDist/tokyocabinet_lua.git
+[submodule "tokyocabinet"]
+	path = tokyocabinet
+	url = git://github.com/LuaDist/tokyocabinet.git
+[submodule "tcc"]
+	path = tcc
+	url = git://github.com/LuaDist/tcc.git
+[submodule "sputnik_tickets"]
+	path = sputnik_tickets
+	url = git://github.com/LuaDist/sputnik_tickets.git
+[submodule "sputnik_markitup"]
+	path = sputnik_markitup
+	url = git://github.com/LuaDist/sputnik_markitup.git
+[submodule "sputnik"]
+	path = sputnik
+	url = git://github.com/LuaDist/sputnik.git
+[submodule "sool"]
+	path = sool
+	url = git://github.com/LuaDist/sool.git
+[submodule "slnunicode"]
+	path = slnunicode
+	url = git://github.com/LuaDist/slnunicode.git
+[submodule "slncrypto"]
+	path = slncrypto
+	url = git://github.com/LuaDist/slncrypto.git
+[submodule "simulua"]
+	path = simulua
+	url = git://github.com/LuaDist/simulua.git
+[submodule "shake"]
+	path = shake
+	url = git://github.com/LuaDist/shake.git
+[submodule "scite"]
+	path = scite
+	url = git://github.com/LuaDist/scite.git
+[submodule "scintilla"]
+	path = scintilla
+	url = git://github.com/LuaDist/scintilla.git
+[submodule "saci"]
+	path = saci
+	url = git://github.com/LuaDist/saci.git
+[submodule "rings"]
+	path = rings
+	url = git://github.com/LuaDist/rings.git
+[submodule "remdebug"]
+	path = remdebug
+	url = git://github.com/LuaDist/remdebug.git
+[submodule "regex"]
+	path = regex
+	url = git://github.com/LuaDist/regex.git
+[submodule "recaptcha"]
+	path = recaptcha
+	url = git://github.com/LuaDist/recaptcha.git
+[submodule "qtlua"]
+	path = qtlua
+	url = git://github.com/LuaDist/qtlua.git
+[submodule "pluto"]
+	path = pluto
+	url = git://github.com/LuaDist/pluto.git
+[submodule "penlight"]
+	path = penlight
+	url = git://github.com/LuaDist/penlight.git
+[submodule "pcre"]
+	path = pcre
+	url = git://github.com/LuaDist/pcre.git
+[submodule "openssl"]
+	path = openssl
+	url = git://github.com/LuaDist/openssl.git
+[submodule "onig"]
+	path = onig
+	url = git://github.com/LuaDist/onig.git
+[submodule "olua"]
+	path = olua
+	url = git://github.com/LuaDist/olua.git
+[submodule "objl"]
+	path = objl
+	url = git://github.com/LuaDist/objl.git
+[submodule "objectlua"]
+	path = objectlua
+	url = git://github.com/LuaDist/objectlua.git
+[submodule "numlua"]
+	path = numlua
+	url = git://github.com/LuaDist/numlua.git
+[submodule "mixlua"]
+	path = mixlua
+	url = git://github.com/LuaDist/mixlua.git
+[submodule "md5"]
+	path = md5
+	url = git://github.com/LuaDist/md5.git
+[submodule "markdown"]
+	path = markdown
+	url = git://github.com/LuaDist/markdown.git
+[submodule "mapm"]
+	path = mapm
+	url = git://github.com/LuaDist/mapm.git
+[submodule "lzlib"]
+	path = lzlib
+	url = git://github.com/LuaDist/lzlib.git
+[submodule "lv3"]
+	path = lv3
+	url = git://github.com/LuaDist/lv3.git
+[submodule "lunit"]
+	path = lunit
+	url = git://github.com/LuaDist/lunit.git
+[submodule "luma"]
+	path = luma
+	url = git://github.com/LuaDist/luma.git
+[submodule "luazip"]
+	path = luazip
+	url = git://github.com/LuaDist/luazip.git
+[submodule "luaxmlrpc"]
+	path = luaxmlrpc
+	url = git://github.com/LuaDist/luaxmlrpc.git
+[submodule "luaxml"]
+	path = luaxml
+	url = git://github.com/LuaDist/luaxml.git
+[submodule "luaunit"]
+	path = luaunit
+	url = git://github.com/LuaDist/luaunit.git
+[submodule "luatokenf"]
+	path = luatokenf
+	url = git://github.com/LuaDist/luatokenf.git
+[submodule "luatask"]
+	path = luatask
+	url = git://github.com/LuaDist/luatask.git
+[submodule "luasys"]
+	path = luasys
+	url = git://github.com/LuaDist/luasys.git
+[submodule "luasql-sqlite3"]
+	path = luasql-sqlite3
+	url = git://github.com/LuaDist/luasql-sqlite3.git
+[submodule "luasql-sqlite"]
+	path = luasql-sqlite
+	url = git://github.com/LuaDist/luasql-sqlite.git
+[submodule "luasql-mysql"]
+	path = luasql-mysql
+	url = git://github.com/LuaDist/luasql-mysql.git
+[submodule "luasoap"]
+	path = luasoap
+	url = git://github.com/LuaDist/luasoap.git
+[submodule "luasec"]
+	path = luasec
+	url = git://github.com/LuaDist/luasec.git
+[submodule "luaprofiler"]
+	path = luaprofiler
+	url = git://github.com/LuaDist/luaprofiler.git
+[submodule "luaposix"]
+	path = luaposix
+	url = git://github.com/LuaDist/luaposix.git
+[submodule "luapod"]
+	path = luapod
+	url = git://github.com/LuaDist/luapod.git
+[submodule "luapi"]
+	path = luapi
+	url = git://github.com/LuaDist/luapi.git
+[submodule "lualogging"]
+	path = lualogging
+	url = git://github.com/LuaDist/lualogging.git
+[submodule "lualnum"]
+	path = lualnum
+	url = git://github.com/LuaDist/lualnum.git
+[submodule "lualibusb"]
+	path = lualibusb
+	url = git://github.com/LuaDist/lualibusb.git
+[submodule "luajson"]
+	path = luajson
+	url = git://github.com/LuaDist/luajson.git
+[submodule "luajit"]
+	path = luajit
+	url = git://github.com/LuaDist/luajit.git
+[submodule "luajava"]
+	path = luajava
+	url = git://github.com/LuaDist/luajava.git
+[submodule "luaidl"]
+	path = luaidl
+	url = git://github.com/LuaDist/luaidl.git
+[submodule "luagraph"]
+	path = luagraph
+	url = git://github.com/LuaDist/luagraph.git
+[submodule "luaglut"]
+	path = luaglut
+	url = git://github.com/LuaDist/luaglut.git
+[submodule "luagl"]
+	path = luagl
+	url = git://github.com/LuaDist/luagl.git
+[submodule "luagd"]
+	path = luagd
+	url = git://github.com/LuaDist/luagd.git
+[submodule "luafish"]
+	path = luafish
+	url = git://github.com/LuaDist/luafish.git
+[submodule "luaffi"]
+	path = luaffi
+	url = git://github.com/LuaDist/luaffi.git
+[submodule "luaexpat"]
+	path = luaexpat
+	url = git://github.com/LuaDist/luaexpat.git
+[submodule "luaex"]
+	path = luaex
+	url = git://github.com/LuaDist/luaex.git
+[submodule "luadoc"]
+	path = luadoc
+	url = git://github.com/LuaDist/luadoc.git
+[submodule "luadate"]
+	path = luadate
+	url = git://github.com/LuaDist/luadate.git
+[submodule "luacurl"]
+	path = luacurl
+	url = git://github.com/LuaDist/luacurl.git
+[submodule "luacrypto"]
+	path = luacrypto
+	url = git://github.com/LuaDist/luacrypto.git
+[submodule "luacov"]
+	path = luacov
+	url = git://github.com/LuaDist/luacov.git
+[submodule "luacontractor"]
+	path = luacontractor
+	url = git://github.com/LuaDist/luacontractor.git
+[submodule "luacom"]
+	path = luacom
+	url = git://github.com/LuaDist/luacom.git
+[submodule "luabitop"]
+	path = luabitop
+	url = git://github.com/LuaDist/luabitop.git
+[submodule "luabind"]
+	path = luabind
+	url = git://github.com/LuaDist/luabind.git
+[submodule "lua_uri"]
+	path = lua_uri
+	url = git://github.com/LuaDist/lua_uri.git
+[submodule "lua_tinycdb"]
+	path = lua_tinycdb
+	url = git://github.com/LuaDist/lua_tinycdb.git
+[submodule "lua_signal"]
+	path = lua_signal
+	url = git://github.com/LuaDist/lua_signal.git
+[submodule "lua_memoryfile"]
+	path = lua_memoryfile
+	url = git://github.com/LuaDist/lua_memoryfile.git
+[submodule "lua_iconv"]
+	path = lua_iconv
+	url = git://github.com/LuaDist/lua_iconv.git
+[submodule "lua_discount"]
+	path = lua_discount
+	url = git://github.com/LuaDist/lua_discount.git
+[submodule "lua-xmlreader"]
+	path = lua-xmlreader
+	url = git://github.com/LuaDist/lua-xmlreader.git
+[submodule "lsqlite3"]
+	path = lsqlite3
+	url = git://github.com/LuaDist/lsqlite3.git
+[submodule "lrexlib"]
+	path = lrexlib
+	url = git://github.com/LuaDist/lrexlib.git
+[submodule "lrandom"]
+	path = lrandom
+	url = git://github.com/LuaDist/lrandom.git
+[submodule "lpeg"]
+	path = lpeg
+	url = git://github.com/LuaDist/lpeg.git
+[submodule "lpc"]
+	path = lpc
+	url = git://github.com/LuaDist/lpc.git
+[submodule "lpack"]
+	path = lpack
+	url = git://github.com/LuaDist/lpack.git
+[submodule "loop"]
+	path = loop
+	url = git://github.com/LuaDist/loop.git
+[submodule "lmock"]
+	path = lmock
+	url = git://github.com/LuaDist/lmock.git
+[submodule "lmathx"]
+	path = lmathx
+	url = git://github.com/LuaDist/lmathx.git
+[submodule "lmapm"]
+	path = lmapm
+	url = git://github.com/LuaDist/lmapm.git
+[submodule "lip"]
+	path = lip
+	url = git://github.com/LuaDist/lip.git
+[submodule "libzzip"]
+	path = libzzip
+	url = git://github.com/LuaDist/libzzip.git
+[submodule "libtiff"]
+	path = libtiff
+	url = git://github.com/LuaDist/libtiff.git
+[submodule "libsqlite3"]
+	path = libsqlite3
+	url = git://github.com/LuaDist/libsqlite3.git
+[submodule "libpng"]
+	path = libpng
+	url = git://github.com/LuaDist/libpng.git
+[submodule "libmng"]
+	path = libmng
+	url = git://github.com/LuaDist/libmng.git
+[submodule "libjpeg"]
+	path = libjpeg
+	url = git://github.com/LuaDist/libjpeg.git
+[submodule "libgdbm"]
+	path = libgdbm
+	url = git://github.com/LuaDist/libgdbm.git
+[submodule "libffi"]
+	path = libffi
+	url = git://github.com/LuaDist/libffi.git
+[submodule "libexpat"]
+	path = libexpat
+	url = git://github.com/LuaDist/libexpat.git
+[submodule "libdevil"]
+	path = libdevil
+	url = git://github.com/LuaDist/libdevil.git
+[submodule "libarchive"]
+	path = libarchive
+	url = git://github.com/LuaDist/libarchive.git
+[submodule "lgpc"]
+	path = lgpc
+	url = git://github.com/LuaDist/lgpc.git
+[submodule "lgdbm"]
+	path = lgdbm
+	url = git://github.com/LuaDist/lgdbm.git
+[submodule "leg"]
+	path = leg
+	url = git://github.com/LuaDist/leg.git
+[submodule "lcms2"]
+	path = lcms2
+	url = git://github.com/LuaDist/lcms2.git
+[submodule "lcms"]
+	path = lcms
+	url = git://github.com/LuaDist/lcms.git
+[submodule "lclomplex"]
+	path = lclomplex
+	url = git://github.com/LuaDist/lclomplex.git
+[submodule "lbci"]
+	path = lbci
+	url = git://github.com/LuaDist/lbci.git
+[submodule "lbc"]
+	path = lbc
+	url = git://github.com/LuaDist/lbc.git
+[submodule "lbase64"]
+	path = lbase64
+	url = git://github.com/LuaDist/lbase64.git
+[submodule "lazykit"]
+	path = lazykit
+	url = git://github.com/LuaDist/lazykit.git
+[submodule "lascii85"]
+	path = lascii85
+	url = git://github.com/LuaDist/lascii85.git
+[submodule "lanes"]
+	path = lanes
+	url = git://github.com/LuaDist/lanes.git
+[submodule "lalarm"]
+	path = lalarm
+	url = git://github.com/LuaDist/lalarm.git
+[submodule "kepler-xavante"]
+	path = kepler-xavante
+	url = git://github.com/LuaDist/kepler-xavante.git
+[submodule "kepler-fastcgi"]
+	path = kepler-fastcgi
+	url = git://github.com/LuaDist/kepler-fastcgi.git
+[submodule "kepler"]
+	path = kepler
+	url = git://github.com/LuaDist/kepler.git
+[submodule "iuplua"]
+	path = iuplua
+	url = git://github.com/LuaDist/iuplua.git
+[submodule "iup"]
+	path = iup
+	url = git://github.com/LuaDist/iup.git
+[submodule "imlua"]
+	path = imlua
+	url = git://github.com/LuaDist/imlua.git
+[submodule "im"]
+	path = im
+	url = git://github.com/LuaDist/im.git
+[submodule "gzio"]
+	path = gzio
+	url = git://github.com/LuaDist/gzio.git
+[submodule "gslshell"]
+	path = gslshell
+	url = git://github.com/LuaDist/gslshell.git
+[submodule "gsl"]
+	path = gsl
+	url = git://github.com/LuaDist/gsl.git
+[submodule "gpc"]
+	path = gpc
+	url = git://github.com/LuaDist/gpc.git
+[submodule "glew"]
+	path = glew
+	url = git://github.com/LuaDist/glew.git
+[submodule "getopt"]
+	path = getopt
+	url = git://github.com/LuaDist/getopt.git
+[submodule "genx"]
+	path = genx
+	url = git://github.com/LuaDist/genx.git
+[submodule "freeglut"]
+	path = freeglut
+	url = git://github.com/LuaDist/freeglut.git
+[submodule "fcgi"]
+	path = fcgi
+	url = git://github.com/LuaDist/fcgi.git
+[submodule "etree"]
+	path = etree
+	url = git://github.com/LuaDist/etree.git
+[submodule "epeg"]
+	path = epeg
+	url = git://github.com/LuaDist/epeg.git
+[submodule "diluculum"]
+	path = diluculum
+	url = git://github.com/LuaDist/diluculum.git
+[submodule "diff"]
+	path = diff
+	url = git://github.com/LuaDist/diff.git
+[submodule "dado"]
+	path = dado
+	url = git://github.com/LuaDist/dado.git
+[submodule "coxpcall"]
+	path = coxpcall
+	url = git://github.com/LuaDist/coxpcall.git
+[submodule "cosmo"]
+	path = cosmo
+	url = git://github.com/LuaDist/cosmo.git
+[submodule "copas"]
+	path = copas
+	url = git://github.com/LuaDist/copas.git
+[submodule "config"]
+	path = config
+	url = git://github.com/LuaDist/config.git
+[submodule "concurrentlua"]
+	path = concurrentlua
+	url = git://github.com/LuaDist/concurrentlua.git
+[submodule "cmake"]
+	path = cmake
+	url = git://github.com/LuaDist/cmake.git
+[submodule "classlib"]
+	path = classlib
+	url = git://github.com/LuaDist/classlib.git
+[submodule "cheese"]
+	path = cheese
+	url = git://github.com/LuaDist/cheese.git
+[submodule "cgilua"]
+	path = cgilua
+	url = git://github.com/LuaDist/cgilua.git
+[submodule "cdlua"]
+	path = cdlua
+	url = git://github.com/LuaDist/cdlua.git
+[submodule "cd"]
+	path = cd
+	url = git://github.com/LuaDist/cd.git
+[submodule "bzip2"]
+	path = bzip2
+	url = git://github.com/LuaDist/bzip2.git
+[submodule "boostmathspecialfunctions"]
+	path = boostmathspecialfunctions
+	url = git://github.com/LuaDist/boostmathspecialfunctions.git
+[submodule "bitlib"]
+	path = bitlib
+	url = git://github.com/LuaDist/bitlib.git
+[submodule "bin2clua"]
+	path = bin2clua
+	url = git://github.com/LuaDist/bin2clua.git
+[submodule "alien"]
+	path = alien
+	url = git://github.com/LuaDist/alien.git
+[submodule "abelhas"]
+	path = abelhas
+	url = git://github.com/LuaDist/abelhas.git
+[submodule "luasocket"]
+	path = luasocket
+	url = git://github.com/LuaDist/luasocket.git
+[submodule "lua"]
+	path = lua
+	url = git://github.com/LuaDist/lua.git
+[submodule "luafilesystem"]
+	path = luafilesystem
+	url = git://github.com/LuaDist/luafilesystem.git
+[submodule "luadist"]
+	path = luadist
+	url = git://github.com/LuaDist/luadist.git
+[submodule "lua-stdlib"]
+	path = lua-stdlib
+	url = git://github.com/LuaDist/lua-stdlib.git
+[submodule "batteries"]
+	path = batteries
+	url = git://github.com/LuaDist/batteries.git
+[submodule "oil"]
+	path = oil
+	url = git://github.com/LuaDist/oil.git
+[submodule "librs232"]
+	path = librs232
+	url = git://github.com/LuaDist/librs232.git
+[submodule "lemock"]
+	path = lemock
+	url = git://github.com/LuaDist/lemock.git
+[submodule "wsapi"]
+	path = wsapi
+	url = git://github.com/LuaDist/wsapi.git
+[submodule "vstruct"]
+	path = vstruct
+	url = git://github.com/LuaDist/vstruct.git
+[submodule "luarocks"]
+	path = luarocks
+	url = git://github.com/LuaDist/luarocks.git
+[submodule "lua-colors"]
+	path = lua-colors
+	url = git://github.com/LuaDist/lua-colors.git
+[submodule "lua-matrix"]
+	path = lua-matrix
+	url = git://github.com/LuaDist/lua-matrix.git
+[submodule "bootstrap"]
+	path = bootstrap
+	url = git://github.com/LuaDist/bootstrap.git
+[submodule "metalua"]
+	path = metalua
+	url = git://github.com/LuaDist/metalua.git
+[submodule "curl"]
+	path = curl
+	url = git://github.com/LuaDist/curl.git
+[submodule "lua-curl"]
+	path = lua-curl
+	url = git://github.com/LuaDist/lua-curl.git
+[submodule "iup-doc"]
+	path = iup-doc
+	url = git://github.com/LuaDist/iup-doc.git
+[submodule "iup-examples"]
+	path = iup-examples
+	url = git://github.com/LuaDist/iup-examples.git
+[submodule "cd-examples"]
+	path = cd-examples
+	url = git://github.com/LuaDist/cd-examples.git
+[submodule "im-examples"]
+	path = im-examples
+	url = git://github.com/LuaDist/im-examples.git
+[submodule "im-doc"]
+	path = im-doc
+	url = git://github.com/LuaDist/im-doc.git
+[submodule "cd-doc"]
+	path = cd-doc
+	url = git://github.com/LuaDist/cd-doc.git
+[submodule "luasql-postgresql"]
+	path = luasql-postgresql
+	url = git://github.com/LuaDist/luasql-postgresql.git
+[submodule "luasql-odbc"]
+	path = luasql-odbc
+	url = git://github.com/LuaDist/luasql-odbc.git
+[submodule "luasql-firebird"]
+	path = luasql-firebird
+	url = git://github.com/LuaDist/luasql-firebird.git
+[submodule "libsqlite"]
+	path = libsqlite
+	url = git://github.com/LuaDist/libsqlite.git
+[submodule "wxwidgets"]
+	path = wxwidgets
+	url = git://github.com/LuaDist/wxwidgets.git
+[submodule "libgd"]
+	path = libgd
+	url = git://github.com/LuaDist/libgd.git
+[submodule "libmysql"]
+	path = libmysql
+	url = git://github.com/LuaDist/libmysql.git
+[submodule "moonscript"]
+	path = moonscript
+	url = git://github.com/LuaDist/moonscript.git
+[submodule "alt-getopt"]
+	path = alt-getopt
+	url = git://github.com/LuaDist/alt-getopt.git
+[submodule "lua-bit-numberlua"]
+	path = lua-bit-numberlua
+	url = git://github.com/LuaDist/lua-bit-numberlua.git
+[submodule "lua-compress-deflatelua"]
+	path = lua-compress-deflatelua
+	url = git://github.com/LuaDist/lua-compress-deflatelua.git
+[submodule "lua-digest-crc32lua"]
+	path = lua-digest-crc32lua
+	url = git://github.com/LuaDist/lua-digest-crc32lua.git
+[submodule "lua-pythonic-optparse"]
+	path = lua-pythonic-optparse
+	url = git://github.com/LuaDist/lua-pythonic-optparse.git
+[submodule "luasrcdiet"]
+	path = luasrcdiet
+	url = git://github.com/LuaDist/luasrcdiet.git
