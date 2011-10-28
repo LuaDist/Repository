@@ -616,3 +616,9 @@
 [submodule "luasrcdiet"]
 	path = luasrcdiet
 	url = git://github.com/LuaDist/luasrcdiet.git
+[submodule "lua-cjson"]
+	path = lua-cjson
+	url = git://github.com/LuaDist/lua-cjson.git
+[submodule "lua-openssl"]
+	path = lua-openssl
+	url = git://github.com/LuaDist/lua-openssl.git
