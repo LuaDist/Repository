@@ -7,6 +7,7 @@
 :: In case it is called in the repository it will install into _install folder
 @echo off
 setlocal
+set CMAKE=C:\PROGRA~2\CMAKE2~1.8\bin\cmake
 set REPO=%~dp0
 set REPO=%REPO:~0,-1%
 set DEPL=%CD%
@@ -20,8 +21,8 @@ echo Destination: %DEPL%
 echo Repository: %REPO%
 
 mkdir "%DEPL%\tmp\install"
-cd "%DEPL%\tmp\install" && cmake "%REPO%" -G"MinGW Makefiles" -DCMAKE_INSTALL_PREFIX="%DEPL%" -DDISTS="%DISTS%"
-cmake --build "%DEPL%\tmp\install" --target install
+cd "%DEPL%\tmp\install" && %CMAKE% "%REPO%" -G"MinGW Makefiles" -DCMAKE_INSTALL_PREFIX="%DEPL%" -DDISTS="%DISTS%"
+%CMAKE% --build "%DEPL%\tmp\install" --target install
 goto :exit
 
 :help
