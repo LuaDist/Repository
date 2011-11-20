@@ -622,3 +622,6 @@
 [submodule "lua-openssl"]
 	path = lua-openssl
 	url = git://github.com/LuaDist/lua-openssl.git
+[submodule "libpq"]
+	path = libpq
+	url = git://github.com/LuaDist/libpq.git
