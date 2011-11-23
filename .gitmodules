@@ -625,3 +625,15 @@
 [submodule "libpq"]
 	path = libpq
 	url = git://github.com/LuaDist/libpq.git
+[submodule "ldoc"]
+	path = ldoc
+	url = git://github.com/LuaDist/ldoc.git
+[submodule "luadocer"]
+	path = luadocer
+	url = git://github.com/LuaDist/luadocer.git
+[submodule "luametrics"]
+	path = luametrics
+	url = git://github.com/LuaDist/luametrics.git
+[submodule "luapretty"]
+	path = luapretty
+	url = git://github.com/LuaDist/luapretty.git
