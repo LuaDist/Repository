@@ -252,6 +252,25 @@ return {
 {
 		['type'] = 	[[source]],
 		['arch'] = 	[[Universal]],
+		['author'] = 	[[Marek Srank]],
+		['depends'] = 	{
+				[[lua ~> 5.1]],
+				[[luafilesystem >= 1.4.1]],
+		},
+		['desc'] = 	[[Git based deployment of LuaDist modules.]],
+		['conflicts'] = 	{
+				[[luadist]],
+		},
+		['version'] = 	[[scm]],
+		['maintainer'] = 	[[Marek Srank]],
+		['path'] = 	[[https://nodeload.github.com/LuaDist/luadist-git/zipball/master?/luadist-git-scm.dist]],
+		['license'] = 	[[MIT/X11]],
+		['name'] = 	[[luadist-git]],
+		['url'] = 	[[http://www.luadist.org]],
+	},
+{
+		['type'] = 	[[source]],
+		['arch'] = 	[[Universal]],
 		['author'] = 	[[Frederic Peschanski]],
 		['depends'] = 	{
 				[[lua ~> 5.1]],
@@ -2716,6 +2735,7 @@ return {
 		['author'] = 	[[MySQL]],
 		['depends'] = 	{
 				[[zlib >= 1.2]],
+				[[openssl >= 0.9.0]],
 		},
 		['desc'] = 	[[libmysql provides C interface to MySQL. Also known as mysql-connector-c.]],
 		['version'] = 	[[scm]],
@@ -5374,6 +5394,24 @@ return {
 		['url'] = 	[[http://luaforge.net/projects/xstring/]],
 	},
 {
+		['type'] = 	[[source]],
+		['arch'] = 	[[Universal]],
+		['author'] = 	[[Mike Pall]],
+		['desc'] = 	[[LuaJIT is JIT compiler for the Lua language.]],
+		['path'] = 	[[https://nodeload.github.com/LuaDist/luajit/zipball/2.0.0-beta9?/luajit-2.0.0-beta9.dist]],
+		['conflicts'] = 	{
+				[[lua]],
+		},
+		['version'] = 	[[2.0.0-beta9]],
+		['maintainer'] = 	[[Peter Drahoš]],
+		['name'] = 	[[luajit]],
+		['license'] = 	[[MIT/X11]],
+		['provides'] = 	{
+				[[lua-5.1.4]],
+		},
+		['url'] = 	[[http://www.luajit.org]],
+	},
+{
 		['type'] = 	[[x86]],
 		['arch'] = 	[[Windows]],
 		['author'] = 	[[Mike Pall]],
@@ -6441,6 +6479,8 @@ return {
 				[[luasocket>=2.0.2]],
 				[[luasql-sqlite3>=2.1]],
 				[[luasql-odbc>=2.1]],
+				[[luasql-postgresql>=2.1]],
+				[[luasql-mysql>=2.1]],
 				[[luaunit>=1.3]],
 				[[luazip>=1.2.3]],
 				[[lua-stdlib>=15]],
@@ -6470,7 +6510,6 @@ return {
 						[[luacom>=1.4]],
 						[[iuplua>=3.2.0]],
 						[[wxlua>=2.8.10.0]],
-						[[luasql-mysql>=2.1]],
 			},
 		},
 		['desc'] = 	[[Lua Batteries. A meta package modeled after LuaForWindows distribution.]],
