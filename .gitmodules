@@ -637,3 +637,6 @@
 [submodule "luapretty"]
 	path = luapretty
 	url = git://github.com/LuaDist/luapretty.git
+[submodule "luadist-git"]
+	path = luadist-git
+	url = git://github.com/LuaDist/luadist-git.git
