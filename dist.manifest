@@ -2310,10 +2310,10 @@ return {
 		['desc'] = 	[[Lua is a powerful, fast, light-weight, embeddable scripting language.]],
 		['name'] = 	[[lua]],
 		['maintainer'] = 	[[Peter Drahoš]],
-		['path'] = 	[[https://nodeload.github.com/LuaDist/lua/zipball/5.2-beta?/lua-5.2-beta.dist]],
+		['path'] = 	[[https://nodeload.github.com/LuaDist/lua/zipball/5.2?/lua-5.2.dist]],
 		['license'] = 	[[MIT/X11]],
 		['url'] = 	[[http://www.lua.org]],
-		['version'] = 	[[5.2-beta]],
+		['version'] = 	[[5.2]],
 	},
 {
 		['type'] = 	[[source]],
