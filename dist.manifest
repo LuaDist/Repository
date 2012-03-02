@@ -930,7 +930,6 @@ return {
 		['author'] = 	[[Tomás Guisasola, Eduardo Quintão]],
 		['depends'] = 	{
 				[[lua ~> 5.1]],
-				[[luasql >= 2.1]],
 		},
 		['desc'] = 	[[Dado - Database Facilities for LuaSQL.]],
 		['version'] = 	[[1.2.0]],
@@ -946,7 +945,6 @@ return {
 		['author'] = 	[[Tomás Guisasola, Eduardo Quintão]],
 		['depends'] = 	{
 				[[lua ~> 5.1]],
-				[[luasql >= 2.1]],
 		},
 		['desc'] = 	[[Dado - Database Facilities for LuaSQL.]],
 		['version'] = 	[[scm]],
