@@ -37,7 +37,7 @@ for name, url in pairs(repo) do
 			
 			      -- Generate manifest entry for the dist
             if info then
-                if (info.name ~= name) then print ("WARNINIG: Name mismatch in "..name.." and its dist.info") end
+                if (info.name ~= name) then print ("WARNING: Name mismatch in "..name.." and its dist.info") end
             	  -- If master, mark dist version as scm
 				        if tag == "master" then info.version = "scm" end
 			          -- Small hack to generate correct filename
