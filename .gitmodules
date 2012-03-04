@@ -640,3 +640,21 @@
 [submodule "luadist-git"]
 	path = luadist-git
 	url = git://github.com/LuaDist/luadist-git.git
+[submodule "lua-testmore"]
+	path = lua-testmore
+	url = git://github.com/LuaDist/lua-testmore.git
+[submodule "lua-testlongstring"]
+	path = lua-testlongstring
+	url = git://github.com/LuaDist/lua-testlongstring.git
+[submodule "lua-codegen"]
+	path = lua-codegen
+	url = git://github.com/LuaDist/lua-codegen.git
+[submodule "lua-spore"]
+	path = lua-spore
+	url = git://github.com/LuaDist/lua-spore.git
+[submodule "lua-coat"]
+	path = lua-coat
+	url = git://github.com/LuaDist/lua-coat.git
+[submodule "lua-coatpersistent"]
+	path = lua-coatpersistent
+	url = git://github.com/LuaDist/lua-coatpersistent.git
