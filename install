@@ -40,4 +40,4 @@ echo "Repository: $REPO"
 
 # Install (this may fail on 2.8.2 cmake, but will generate successful install)
 mkdir -p "$DEPL/tmp/install" && cd "$DEPL/tmp/install" && cmake "$REPO" -DCMAKE_INSTALL_PREFIX="$DEPL" -DDISTS="$DISTS"
-cmake --build "$DEPL/tmp/install" --target install
+cmake --build "$DEPL/tmp/install" --target install -- -j6
