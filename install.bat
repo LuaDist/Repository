@@ -12,6 +12,7 @@ set REPO=%~dp0
 set REPO=%REPO:~0,-1%
 set DEPL=%CD%
 set DISTS=%*
+set SHELL=cmd.exe
 
 if "%1"=="" goto :help
 if "%REPO%"=="%DEPL%" set DEPL=%DEPL%\_install
@@ -22,7 +23,7 @@ echo Repository: %REPO%
 
 mkdir "%DEPL%\tmp\install"
 cd "%DEPL%\tmp\install" && %CMAKE% "%REPO%" -G"MinGW Makefiles" -DCMAKE_INSTALL_PREFIX="%DEPL%" -DDISTS="%DISTS%"
-%CMAKE% --build "%DEPL%\tmp\install" --target install
+%CMAKE% --build "%DEPL%\tmp\install" --target install -- -j
 goto :exit
 
 :help
