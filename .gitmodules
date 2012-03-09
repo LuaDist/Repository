@@ -658,3 +658,12 @@
 [submodule "lua-coatpersistent"]
 	path = lua-coatpersistent
 	url = git://github.com/LuaDist/lua-coatpersistent.git
+[submodule "lua-zmq"]
+	path = lua-zmq
+	url = git://github.com/LuaDist/lua-zmq.git
+[submodule "libzmq"]
+	path = libzmq
+	url = git://github.com/LuaDist/libzmq.git
+[submodule "luanativeobjects"]
+	path = luanativeobjects
+	url = git://github.com/LuaDist/luanativeobjects.git
