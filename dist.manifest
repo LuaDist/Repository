@@ -49,6 +49,21 @@ return {
 {
 		['type'] = 	[[source]],
 		['arch'] = 	[[Universal]],
+		['author'] = 	[[Yuri Takhteyev]],
+		['depends'] = 	{
+				[[lua ~> 5.1]],
+		},
+		['desc'] = 	[[A markitup plugin for Sputnik]],
+		['version'] = 	[[scm]],
+		['maintainer'] = 	[[Peter Drahoš]],
+		['path'] = 	[[https://nodeload.github.com/LuaDist/sputnik_markitup/zipball/master?/sputnik_markitup-scm.dist]],
+		['license'] = 	[[MIT/X11]],
+		['name'] = 	[[sputnik_markitup]],
+		['url'] = 	[[http://spu.tnik.org]],
+	},
+{
+		['type'] = 	[[source]],
+		['arch'] = 	[[Universal]],
 		['depends'] = 	{
 				[[lua ~> 5.1]],
 				[[libgdbm >=1.8]],
@@ -2575,6 +2590,18 @@ return {
 		['license'] = 	[[MIT/X11]],
 		['url'] = 	[[http://www.lua.org]],
 		['version'] = 	[[5.2]],
+	},
+{
+		['type'] = 	[[source]],
+		['arch'] = 	[[Universal]],
+		['author'] = 	[[Roberto Ierusalimschy, Waldemar Celes, Luiz Henrique de Figueiredo]],
+		['desc'] = 	[[Lua is a powerful, fast, light-weight, embeddable scripting language.]],
+		['name'] = 	[[lua]],
+		['maintainer'] = 	[[Peter Drahoš]],
+		['path'] = 	[[https://nodeload.github.com/LuaDist/lua/zipball/5.1.5?/lua-5.1.5.dist]],
+		['license'] = 	[[MIT/X11]],
+		['url'] = 	[[http://www.lua.org]],
+		['version'] = 	[[5.1.5]],
 	},
 {
 		['type'] = 	[[source]],
