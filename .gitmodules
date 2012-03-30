@@ -667,3 +667,6 @@
 [submodule "luanativeobjects"]
 	path = luanativeobjects
 	url = git://github.com/LuaDist/luanativeobjects.git
+[submodule "tlc"]
+	path = tlc
+	url = git://github.com/LuaDist/tlc.git
