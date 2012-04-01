@@ -75,8 +75,8 @@ Contributing
 Call for Maintainers
 --------------------
 
-If you would like to help us maintain the repository and update modules without maintainers you are more than welcome. Please contact us at our [development list][mail]
+If you would like to help us maintain the repository and update modules without maintainers you are more than welcome. Please contact us at our [Google Group][group]
 
 [sub]: http://github.com/guides/developing-with-submodules
 [issue]: http://github.com/LuaDist/Repository/issues
-[mail]: mailto:luadist-devel@lists.sourceforge.net
+[group]: https://groups.google.com/forum/#!forum/luadist
