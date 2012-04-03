@@ -333,6 +333,24 @@ return {
 {
 		['type'] = 	[[source]],
 		['arch'] = 	[[Universal]],
+		['author'] = 	[[Luis Carvalho]],
+		['depends'] = 	{
+				[[lua ~> 5.1]],
+				[[lapack]],
+				[[fftw]],
+				[[hdf5]],
+		},
+		['desc'] = 	[[Numerical routines for Lua.]],
+		['version'] = 	[[scm]],
+		['maintainer'] = 	[[Peter Drahoš]],
+		['path'] = 	[[https://nodeload.github.com/LuaDist/numlua/zipball/master?/numlua-scm.dist]],
+		['license'] = 	[[MIT/X11]],
+		['name'] = 	[[numlua]],
+		['url'] = 	[[https://github.com/carvalho/numlua]],
+	},
+{
+		['type'] = 	[[source]],
+		['arch'] = 	[[Universal]],
 		['author'] = 	[[Roberto Ierusalimschy, André Carregal, Tomás Guisasola]],
 		['depends'] = 	{
 				[[lua ~> 5.1]],
@@ -399,20 +417,6 @@ return {
 		['license'] = 	[[The Kepler Project]],
 		['name'] = 	[[luadocer]],
 		['url'] = 	[[https://github.com/LuaDist/luadocer]],
-	},
-{
-		['type'] = 	[[source]],
-		['arch'] = 	[[Universal]],
-		['author'] = 	[[Steve Donovan]],
-		['depends'] = 	{
-				[[lua ~> 5.1]],
-		},
-		['desc'] = 	[[A portable, pure-Lua standard library covering common patterns.]],
-		['version'] = 	[[0.9.3]],
-		['maintainer'] = 	[[Peter Drahoš]],
-		['url'] = 	[[https://github.com/stevedonovan/Penlight]],
-		['path'] = 	[[https://nodeload.github.com/LuaDist/penlight/zipball/v0.9.3?/penlight-0.9.3.dist]],
-		['name'] = 	[[penlight]],
 	},
 {
 		['type'] = 	[[source]],
@@ -1664,6 +1668,26 @@ return {
 				[[unzip >= 6.0]],
 		},
 		['desc'] = 	[[Simple Lua Module Development, Distribution and Deployment Tool.]],
+		['version'] = 	[[1.2.4]],
+		['maintainer'] = 	[[Peter Drahoš]],
+		['path'] = 	[[https://nodeload.github.com/LuaDist/luadist/zipball/1.2.4?/luadist-1.2.4.dist]],
+		['license'] = 	[[MIT/X11]],
+		['name'] = 	[[luadist]],
+		['url'] = 	[[http://www.luadist.org]],
+	},
+{
+		['type'] = 	[[source]],
+		['arch'] = 	[[Universal]],
+		['author'] = 	[[Peter Drahoš, Peter Kapec, David Manura]],
+		['depends'] = 	{
+				[[lua ~> 5.1]],
+				[[md5 >= 1.1]],
+				[[luasocket >= 2.0.2]],
+				[[luafilesystem >= 1.4.1]],
+				[[luasec >= 0.4]],
+				[[unzip >= 6.0]],
+		},
+		['desc'] = 	[[Simple Lua Module Development, Distribution and Deployment Tool.]],
 		['version'] = 	[[1.2.3]],
 		['maintainer'] = 	[[Peter Drahoš]],
 		['path'] = 	[[https://nodeload.github.com/LuaDist/luadist/zipball/1.2.3?/luadist-1.2.3.dist]],
@@ -1854,6 +1878,21 @@ return {
 		['url'] = 	[[http://luaforge.net/projects/getopt/]],
 		['path'] = 	[[https://nodeload.github.com/LuaDist/getopt/zipball/master?/getopt-scm.dist]],
 		['name'] = 	[[getopt]],
+	},
+{
+		['type'] = 	[[source]],
+		['arch'] = 	[[Universal]],
+		['author'] = 	[[Fjölnir Ásgeirsson]],
+		['depends'] = 	{
+				[[luajit>=2]],
+		},
+		['desc'] = 	[[The Tiny Lua Cocoa Bridge]],
+		['version'] = 	[[scm]],
+		['maintainer'] = 	[[Peter Drahoš]],
+		['path'] = 	[[https://nodeload.github.com/LuaDist/tlc/zipball/master?/tlc-scm.dist]],
+		['license'] = 	[[MIT/X11]],
+		['name'] = 	[[tlc]],
+		['url'] = 	[[http://www.lua.org]],
 	},
 {
 		['type'] = 	[[source]],
@@ -3008,6 +3047,7 @@ return {
 		['author'] = 	[[MySQL]],
 		['depends'] = 	{
 				[[zlib >= 1.2]],
+				[[openssl >= 0.9.0]],
 		},
 		['desc'] = 	[[libmysql provides C interface to MySQL. Also known as mysql-connector-c.]],
 		['version'] = 	[[6.0.2]],
@@ -3207,9 +3247,6 @@ return {
 		['author'] = 	[[Roberto Ierusalimschy, André Carregal, Tomás Guisasola]],
 		['depends'] = 	{
 				[[lua ~> 5.1]],
-			['Linux'] = 		{
-						[[unixodbc > 2.2]],
-			},
 		},
 		['desc'] = 	[[Database connectivity for Lua (ODBC driver)]],
 		['version'] = 	[[2.2.0]],
@@ -3225,9 +3262,6 @@ return {
 		['author'] = 	[[Roberto Ierusalimschy, André Carregal, Tomás Guisasola]],
 		['depends'] = 	{
 				[[lua ~> 5.1]],
-			['Linux'] = 		{
-						[[unixodbc > 2.2]],
-			},
 		},
 		['desc'] = 	[[Database connectivity for Lua (ODBC driver)]],
 		['version'] = 	[[scm]],
@@ -3895,7 +3929,7 @@ return {
 {
 		['type'] = 	[[source]],
 		['arch'] = 	[[Universal]],
-		['author'] = 	[[Ben "ToxicFrog" Kelly]],
+		['author'] = 	[[Ben Kelly]],
 		['depends'] = 	{
 				[[lua ~> 5.1]],
 		},
@@ -3910,7 +3944,7 @@ return {
 {
 		['type'] = 	[[source]],
 		['arch'] = 	[[Universal]],
-		['author'] = 	[[Ben "ToxicFrog" Kelly]],
+		['author'] = 	[[Ben Kelly]],
 		['depends'] = 	{
 				[[lua ~> 5.1]],
 		},
@@ -6741,7 +6775,7 @@ return {
 		['version'] = 	[[0.8]],
 	},
 {
-		['type'] = 	[[all]],
+		['type'] = 	[[source]],
 		['arch'] = 	[[Universal]],
 		['author'] = 	[[N/A]],
 		['depends'] = 	{
@@ -6755,7 +6789,6 @@ return {
 				[[luaprofiler>2.0.1]],
 				[[luasocket>=2.0.2]],
 				[[luasql-sqlite3>=2.1]],
-				[[luasql-odbc>=2.1]],
 				[[luasql-postgresql>=2.1]],
 				[[luasql-mysql>=2.1]],
 				[[luaunit>=1.3]],
@@ -6790,12 +6823,12 @@ return {
 			},
 		},
 		['desc'] = 	[[Lua Batteries. A meta package modeled after LuaForWindows distribution.]],
-		['name'] = 	[[batteries]],
-		['maintainer'] = 	[[Peter Drahos]],
+		['version'] = 	[[scm]],
+		['maintainer'] = 	[[Peter Drahoš]],
 		['path'] = 	[[https://nodeload.github.com/LuaDist/batteries/zipball/master?/batteries-scm.dist]],
 		['license'] = 	[[MIT]],
+		['name'] = 	[[batteries]],
 		['url'] = 	[[http://groups.google.com/group/luaforwindows]],
-		['version'] = 	[[scm]],
 	},
 {
 		['type'] = 	[[source]],
