@@ -1,0 +1,32 @@
+#
+# LuaDist Travis-CI Hook
+#
+
+# Since CMake is not directly supported we use erlang VMs
+language: erlang
+
+# We need CMake and LuaDist
+install:
+  - export MODULE=`basename $PWD`
+  - sudo apt-get install cmake >/dev/null 2>&1
+
+# Use install script to deploy the module
+script:
+  - ./install lua-5.1.5 luadist-git
+
+# Execute additional tests or commands
+after_script:
+  - _install/bin/luadist list
+
+# Only watch the master branch
+branches:
+  only:
+    - master
+
+# Notify the LuaDist Dev group if needed
+notifications:
+  recipients:
+    - luadist-dev@googlegroups.com
+  email:
+    on_success: change
+    on_failure: always
