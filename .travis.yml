@@ -12,11 +12,11 @@ install:
 
 # Use install script to deploy the module
 script:
-  - ./install lua-5.1.5 luadist-git
+  - ./install bootstrap
 
 # Execute additional tests or commands
 after_script:
-  - _install/bin/luadist list
+  - _install/bin/luadist search
 
 # Only watch the master branch
 branches:
