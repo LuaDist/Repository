@@ -12,7 +12,7 @@ install:
 
 # Use install script to deploy the module
 script:
-  - ./install bootstrap
+  - ./install bootstrap; echo "Done"
 
 # Execute additional tests or commands
 after_script:
