@@ -1917,7 +1917,7 @@ return {
 		['author'] = 	[[Peter Odding]],
 		['depends'] = 	{
 				[[lua ~> 5.1]],
-				[[apr ~> 1.0]],
+				[[apr >= 1.4]],
 		},
 		['desc'] = 	[[Apache Portable Runtime binding for Lua]],
 		['version'] = 	[[0.23.2]],
@@ -1933,7 +1933,7 @@ return {
 		['author'] = 	[[Peter Odding]],
 		['depends'] = 	{
 				[[lua ~> 5.1]],
-				[[apr ~> 1.0]],
+				[[apr >= 1.4]],
 		},
 		['desc'] = 	[[Apache Portable Runtime binding for Lua]],
 		['version'] = 	[[scm]],
