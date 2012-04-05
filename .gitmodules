@@ -670,3 +670,9 @@
 [submodule "tlc"]
 	path = tlc
 	url = git://github.com/LuaDist/tlc.git
+[submodule "lua-apr"]
+	path = lua-apr
+	url = git://github.com/LuaDist/lua-apr.git
+[submodule "apr"]
+	path = apr
+	url = git://github.com/LuaDist/apr.git
