@@ -4164,6 +4164,21 @@ return {
 {
 		['type'] = 	[[source]],
 		['arch'] = 	[[Universal]],
+		['author'] = 	[[Reuben Thomas]],
+		['depends'] = 	{
+				[[lua ~> 5.1]],
+		},
+		['desc'] = 	[[Library of modules for common programming tasks]],
+		['version'] = 	[[26]],
+		['maintainer'] = 	[[Peter Drahos]],
+		['path'] = 	[[https://nodeload.github.com/LuaDist/lua-stdlib/zipball/26?/lua-stdlib-26.dist]],
+		['license'] = 	[[MIT/X11]],
+		['name'] = 	[[lua-stdlib]],
+		['url'] = 	[[http://luaforge.net/projects/stdlib/]],
+	},
+{
+		['type'] = 	[[source]],
+		['arch'] = 	[[Universal]],
 		['depends'] = 	{
 				[[lua ~> 5.1]],
 				[[lrexlib >=2.2.1]],
@@ -4179,9 +4194,9 @@ return {
 {
 		['type'] = 	[[source]],
 		['arch'] = 	[[Universal]],
+		['author'] = 	[[Reuben Thomas]],
 		['depends'] = 	{
 				[[lua ~> 5.1]],
-				[[lrexlib >=2.2.1]],
 		},
 		['desc'] = 	[[Library of modules for common programming tasks]],
 		['version'] = 	[[scm]],
@@ -5812,24 +5827,6 @@ return {
 		['url'] = 	[[http://www.luajit.org]],
 	},
 {
-		['type'] = 	[[x86]],
-		['arch'] = 	[[Windows]],
-		['author'] = 	[[Mike Pall]],
-		['desc'] = 	[[LuaJIT is JIT compiler for the Lua language.]],
-		['path'] = 	[[https://nodeload.github.com/LuaDist/luajit/zipball/2.0.0-beta8-Windows-x86?/luajit-2.0.0-beta8.dist]],
-		['conflicts'] = 	{
-				[[lua]],
-		},
-		['version'] = 	[[2.0.0-beta8]],
-		['maintainer'] = 	[[Peter Drahoš]],
-		['license'] = 	[[MIT/X11]],
-		['url'] = 	[[http://www.luajit.org]],
-		['provides'] = 	{
-				[[lua-5.1.4]],
-		},
-		['name'] = 	[[luajit]],
-	},
-{
 		['type'] = 	[[source]],
 		['arch'] = 	[[Universal]],
 		['author'] = 	[[Mike Pall]],
@@ -5848,22 +5845,22 @@ return {
 		['url'] = 	[[http://www.luajit.org]],
 	},
 {
-		['type'] = 	[[x86]],
-		['arch'] = 	[[Windows]],
+		['type'] = 	[[source]],
+		['arch'] = 	[[Universal]],
 		['author'] = 	[[Mike Pall]],
 		['desc'] = 	[[LuaJIT is JIT compiler for the Lua language.]],
-		['path'] = 	[[https://nodeload.github.com/LuaDist/luajit/zipball/1.1.7-Windows-x86?/luajit-1.1.7.dist]],
+		['path'] = 	[[https://nodeload.github.com/LuaDist/luajit/zipball/1.1.8?/luajit-1.1.8.dist]],
 		['conflicts'] = 	{
 				[[lua]],
 		},
-		['version'] = 	[[1.1.7]],
+		['version'] = 	[[1.1.8]],
 		['maintainer'] = 	[[Peter Drahoš]],
+		['name'] = 	[[luajit]],
 		['license'] = 	[[MIT/X11]],
-		['url'] = 	[[http://www.luajit.org]],
 		['provides'] = 	{
 				[[lua-5.1.4]],
 		},
-		['name'] = 	[[luajit]],
+		['url'] = 	[[http://www.luajit.org]],
 	},
 {
 		['type'] = 	[[source]],
