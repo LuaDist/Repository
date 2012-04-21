@@ -679,3 +679,6 @@
 [submodule "lmd5"]
 	path = lmd5
 	url = git://github.com/LuaDist/lmd5.git
+[submodule "luuid"]
+	path = luuid
+	url = git://github.com/LuaDist/luuid.git
