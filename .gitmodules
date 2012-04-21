@@ -682,3 +682,6 @@
 [submodule "luuid"]
 	path = luuid
 	url = git://github.com/LuaDist/luuid.git
+[submodule "redis"]
+	path = redis
+	url = git://github.com/LuaDist/redis.git
