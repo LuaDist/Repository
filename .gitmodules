@@ -685,3 +685,6 @@
 [submodule "redis"]
 	path = redis
 	url = git://github.com/LuaDist/redis.git
+[submodule "lua-hiredis"]
+	path = lua-hiredis
+	url = git://github.com/LuaDist/lua-hiredis.git
