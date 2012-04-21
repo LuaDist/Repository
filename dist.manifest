@@ -1621,6 +1621,36 @@ return {
 {
 		['type'] = 	[[source]],
 		['arch'] = 	[[Universal]],
+		['author'] = 	[[Luiz Henrique de Figueiredo]],
+		['depends'] = 	{
+				[[lua ~> 5.1]],
+		},
+		['desc'] = 	[[A message digest library for Lua based on OpenSSL: MD2, MD4, MD5, SHA1, SHA2, RIPEMD160, MDC2.]],
+		['version'] = 	[[0.0.20110324]],
+		['maintainer'] = 	[[David Manura]],
+		['path'] = 	[[https://nodeload.github.com/LuaDist/lmd5/zipball/0.0.20110324?/lmd5-0.0.20110324.dist]],
+		['url'] = 	[[http://www.tecgraf.puc-rio.br/~lhf/ftp/lua/#lmd5]],
+		['name'] = 	[[lmd5]],
+		['license'] = 	[[public domain]],
+	},
+{
+		['type'] = 	[[source]],
+		['arch'] = 	[[Universal]],
+		['author'] = 	[[Luiz Henrique de Figueiredo]],
+		['depends'] = 	{
+				[[lua ~> 5.1]],
+		},
+		['desc'] = 	[[A message digest library for Lua based on OpenSSL: MD2, MD4, MD5, SHA1, SHA2, RIPEMD160, MDC2.]],
+		['version'] = 	[[scm]],
+		['maintainer'] = 	[[David Manura]],
+		['path'] = 	[[https://nodeload.github.com/LuaDist/lmd5/zipball/master?/lmd5-scm.dist]],
+		['url'] = 	[[http://www.tecgraf.puc-rio.br/~lhf/ftp/lua/#lmd5]],
+		['name'] = 	[[lmd5]],
+		['license'] = 	[[public domain]],
+	},
+{
+		['type'] = 	[[source]],
+		['arch'] = 	[[Universal]],
 		['author'] = 	[[Victor Camps]],
 		['depends'] = 	{
 				[[lua ~> 5.1]],

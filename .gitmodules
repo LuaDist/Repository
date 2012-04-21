@@ -676,3 +676,6 @@
 [submodule "apr"]
 	path = apr
 	url = git://github.com/LuaDist/apr.git
+[submodule "lmd5"]
+	path = lmd5
+	url = git://github.com/LuaDist/lmd5.git
