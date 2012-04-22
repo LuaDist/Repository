@@ -688,9 +688,6 @@
 [submodule "lua-hiredis"]
 	path = lua-hiredis
 	url = git://github.com/LuaDist/lua-hiredis.git
-[submodule "lua-getdate"]
-	path = lua-getdate
-	url = git://github.com/LuaDist/lua-getdate.git
 [submodule "luamotif"]
 	path = luamotif
 	url = git://github.com/LuaDist/luamotif.git
