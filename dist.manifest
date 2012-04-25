@@ -1247,6 +1247,36 @@ return {
 {
 		['type'] = 	[[source]],
 		['arch'] = 	[[Universal]],
+		['author'] = 	[[many (see COPYING)]],
+		['depends'] = 	{
+				[[lua ~> 5.1]],
+		},
+		['desc'] = 	[[BSD functions common only on BSD systems, for portability to non-BSD systems.]],
+		['version'] = 	[[0.3.0]],
+		['maintainer'] = 	[[David Manura]],
+		['path'] = 	[[https://nodeload.github.com/LuaDist/libbsd/zipball/0.3.0?/libbsd-0.3.0.dist]],
+		['license'] = 	[[mostly New BSD and MIT style]],
+		['name'] = 	[[libbsd]],
+		['url'] = 	[[http://libbsd.freedesktop.org/wiki/]],
+	},
+{
+		['type'] = 	[[source]],
+		['arch'] = 	[[Universal]],
+		['author'] = 	[[many (see COPYING)]],
+		['depends'] = 	{
+				[[lua ~> 5.1]],
+		},
+		['desc'] = 	[[BSD functions common only on BSD systems, for portability to non-BSD systems.]],
+		['version'] = 	[[scm]],
+		['maintainer'] = 	[[David Manura]],
+		['path'] = 	[[https://nodeload.github.com/LuaDist/libbsd/zipball/master?/libbsd-scm.dist]],
+		['license'] = 	[[mostly New BSD and MIT style]],
+		['name'] = 	[[libbsd]],
+		['url'] = 	[[http://libbsd.freedesktop.org/wiki/]],
+	},
+{
+		['type'] = 	[[source]],
+		['arch'] = 	[[Universal]],
 		['author'] = 	[[Hisham Muhammad]],
 		['depends'] = 	{
 				[[lua >= 5.0]],
@@ -4517,6 +4547,21 @@ return {
 		['license'] = 	[[Public domain]],
 		['name'] = 	[[lgpc]],
 		['url'] = 	[[http://www.tecgraf.puc-rio.br/~lhf/ftp/lua/#lgpc]],
+	},
+{
+		['type'] = 	[[source]],
+		['arch'] = 	[[Universal]],
+		['author'] = 	[[Asko Kauppi]],
+		['depends'] = 	{
+				[[lua ~> 5.1]],
+		},
+		['desc'] = 	[[Lanes is a lightweight, native, lazy evaluating multithreading library for Lua 5.1.]],
+		['version'] = 	[[3.1.1]],
+		['maintainer'] = 	[[Peter Kapec]],
+		['path'] = 	[[https://nodeload.github.com/LuaDist/lanes/zipball/3.1.1?/lanes-3.1.1.dist]],
+		['license'] = 	[[MIT]],
+		['name'] = 	[[lanes]],
+		['url'] = 	[[http://luaforge.net/projects/lanes]],
 	},
 {
 		['type'] = 	[[source]],

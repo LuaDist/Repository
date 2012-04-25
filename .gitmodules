@@ -691,3 +691,6 @@
 [submodule "luamotif"]
 	path = luamotif
 	url = git://github.com/LuaDist/luamotif.git
+[submodule "libbsd"]
+	path = libbsd
+	url = git://github.com/LuaDist/libbsd.git
