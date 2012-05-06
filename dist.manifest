@@ -887,6 +887,21 @@ return {
 				[[lua ~> 5.1]],
 		},
 		['desc'] = 	[[Dado - Database Facilities for LuaSQL.]],
+		['version'] = 	[[1.4.0]],
+		['maintainer'] = 	[[Peter Kapec]],
+		['path'] = 	[[https://nodeload.github.com/LuaDist/dado/zipball/1.4.0?/dado-1.4.0.dist]],
+		['license'] = 	[[MIT]],
+		['name'] = 	[[dado]],
+		['url'] = 	[[http://www.ccpa.puc-rio.br/software/dado/]],
+	},
+{
+		['type'] = 	[[source]],
+		['arch'] = 	[[Universal]],
+		['author'] = 	[[Tomás Guisasola, Eduardo Quintão]],
+		['depends'] = 	{
+				[[lua ~> 5.1]],
+		},
+		['desc'] = 	[[Dado - Database Facilities for LuaSQL.]],
 		['version'] = 	[[1.2.0]],
 		['maintainer'] = 	[[Peter Kapec]],
 		['path'] = 	[[https://nodeload.github.com/LuaDist/dado/zipball/1.2.0?/dado-1.2.0.dist]],
@@ -907,7 +922,7 @@ return {
 		['path'] = 	[[https://nodeload.github.com/LuaDist/dado/zipball/master?/dado-scm.dist]],
 		['license'] = 	[[MIT]],
 		['name'] = 	[[dado]],
-		['url'] = 	[[http://luaforge.net/projects/dado]],
+		['url'] = 	[[http://www.ccpa.puc-rio.br/software/dado/]],
 	},
 {
 		['type'] = 	[[source]],
@@ -4849,7 +4864,7 @@ return {
 		['depends'] = 	{
 				[[lua ~> 5.1]],
 		},
-		['desc'] = 	[[Implemenation of 'ex' API - portable os and io extension functions]],
+		['desc'] = 	[[Implementation of 'ex' API - portable os and io extension functions]],
 		['version'] = 	[[20091019]],
 		['maintainer'] = 	[[Peter Drahoš]],
 		['path'] = 	[[https://nodeload.github.com/LuaDist/luaex/zipball/20091019?/luaex-20091019.dist]],
@@ -4864,7 +4879,7 @@ return {
 		['depends'] = 	{
 				[[lua ~> 5.1]],
 		},
-		['desc'] = 	[[Implemenation of 'ex' API - portable os and io extension functions]],
+		['desc'] = 	[[Implementation of 'ex' API - portable os and io extension functions]],
 		['version'] = 	[[scm]],
 		['maintainer'] = 	[[Peter Drahoš]],
 		['path'] = 	[[https://nodeload.github.com/LuaDist/luaex/zipball/master?/luaex-scm.dist]],
