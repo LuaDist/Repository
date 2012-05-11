@@ -694,3 +694,6 @@
 [submodule "libbsd"]
 	path = libbsd
 	url = git://github.com/LuaDist/libbsd.git
+[submodule "srlua"]
+	path = srlua
+	url = git://github.com/LuaDist/srlua.git
