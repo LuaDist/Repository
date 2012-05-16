@@ -487,9 +487,6 @@
 [submodule "bzip2"]
 	path = bzip2
 	url = git://github.com/LuaDist/bzip2.git
-[submodule "boostmathspecialfunctions"]
-	path = boostmathspecialfunctions
-	url = git://github.com/LuaDist/boostmathspecialfunctions.git
 [submodule "bitlib"]
 	path = bitlib
 	url = git://github.com/LuaDist/bitlib.git
@@ -556,24 +553,6 @@
 [submodule "lua-curl"]
 	path = lua-curl
 	url = git://github.com/LuaDist/lua-curl.git
-[submodule "iup-doc"]
-	path = iup-doc
-	url = git://github.com/LuaDist/iup-doc.git
-[submodule "iup-examples"]
-	path = iup-examples
-	url = git://github.com/LuaDist/iup-examples.git
-[submodule "cd-examples"]
-	path = cd-examples
-	url = git://github.com/LuaDist/cd-examples.git
-[submodule "im-examples"]
-	path = im-examples
-	url = git://github.com/LuaDist/im-examples.git
-[submodule "im-doc"]
-	path = im-doc
-	url = git://github.com/LuaDist/im-doc.git
-[submodule "cd-doc"]
-	path = cd-doc
-	url = git://github.com/LuaDist/cd-doc.git
 [submodule "luasql-postgresql"]
 	path = luasql-postgresql
 	url = git://github.com/LuaDist/luasql-postgresql.git
