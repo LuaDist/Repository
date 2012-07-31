@@ -274,9 +274,6 @@
 [submodule "lua_memoryfile"]
 	path = lua_memoryfile
 	url = git://github.com/LuaDist/lua_memoryfile.git
-[submodule "lua_iconv"]
-	path = lua_iconv
-	url = git://github.com/LuaDist/lua_iconv.git
 [submodule "lua_discount"]
 	path = lua_discount
 	url = git://github.com/LuaDist/lua_discount.git
@@ -676,3 +673,9 @@
 [submodule "srlua"]
 	path = srlua
 	url = git://github.com/LuaDist/srlua.git
+[submodule "lua-iconv"]
+	path = lua-iconv
+	url = git://github.com/LuaDist/lua-iconv.git
+[submodule "libiconv"]
+	path = libiconv
+	url = git://github.com/LuaDist/libiconv.git
