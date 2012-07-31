@@ -361,9 +361,6 @@
 [submodule "lcms"]
 	path = lcms
 	url = git://github.com/LuaDist/lcms.git
-[submodule "lclomplex"]
-	path = lclomplex
-	url = git://github.com/LuaDist/lclomplex.git
 [submodule "lbci"]
 	path = lbci
 	url = git://github.com/LuaDist/lbci.git
@@ -679,3 +676,6 @@
 [submodule "libiconv"]
 	path = libiconv
 	url = git://github.com/LuaDist/libiconv.git
+[submodule "lcomplex"]
+	path = lcomplex
+	url = git://github.com/LuaDist/lcomplex.git
