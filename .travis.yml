@@ -7,16 +7,15 @@ language: C
 
 # We need CMake and LuaDist
 install:
-  - export MODULE=`basename $PWD`
   - sudo apt-get install cmake >/dev/null 2>&1
 
-# Use install script to deploy the module
+# Run the lazy install one-liner
 script:
-  - ./install bootstrap; echo "Done"
+  - echo "$(curl -fksSL https://raw.github.com/gist/2394281/luadist.sh)" | bash
 
 # Execute additional tests or commands
 after_script:
-  - _install/bin/luadist search
+  - LuaDist-batteries/bin/luadist list
 
 # Only watch the master branch
 branches:
