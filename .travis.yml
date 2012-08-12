@@ -3,7 +3,7 @@
 #
 
 # Since CMake is not directly supported we use erlang VMs
-language: erlang
+language: C
 
 # We need CMake and LuaDist
 install:
