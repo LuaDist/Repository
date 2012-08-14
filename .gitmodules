@@ -379,18 +379,6 @@
 [submodule "kepler"]
 	path = kepler
 	url = git://github.com/LuaDist/kepler.git
-[submodule "iuplua"]
-	path = iuplua
-	url = git://github.com/LuaDist/iuplua.git
-[submodule "iup"]
-	path = iup
-	url = git://github.com/LuaDist/iup.git
-[submodule "imlua"]
-	path = imlua
-	url = git://github.com/LuaDist/imlua.git
-[submodule "im"]
-	path = im
-	url = git://github.com/LuaDist/im.git
 [submodule "gzio"]
 	path = gzio
 	url = git://github.com/LuaDist/gzio.git
@@ -460,12 +448,6 @@
 [submodule "cgilua"]
 	path = cgilua
 	url = git://github.com/LuaDist/cgilua.git
-[submodule "cdlua"]
-	path = cdlua
-	url = git://github.com/LuaDist/cdlua.git
-[submodule "cd"]
-	path = cd
-	url = git://github.com/LuaDist/cd.git
 [submodule "bzip2"]
 	path = bzip2
 	url = git://github.com/LuaDist/bzip2.git
