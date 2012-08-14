@@ -679,3 +679,6 @@
 [submodule "lcomplex"]
 	path = lcomplex
 	url = git://github.com/LuaDist/lcomplex.git
+[submodule "orbit"]
+	path = orbit
+	url = git://github.com/LuaDist/orbit.git
