@@ -16,9 +16,6 @@
 [submodule "wxlua"]
 	path = wxlua
 	url = git://github.com/LuaDist/wxlua.git
-[submodule "wsapi-xavante"]
-	path = wsapi-xavante
-	url = git://github.com/LuaDist/wsapi-xavante.git
 [submodule "versium"]
 	path = versium
 	url = git://github.com/LuaDist/versium.git
@@ -379,9 +376,6 @@
 [submodule "lalarm"]
 	path = lalarm
 	url = git://github.com/LuaDist/lalarm.git
-[submodule "kepler-xavante"]
-	path = kepler-xavante
-	url = git://github.com/LuaDist/kepler-xavante.git
 [submodule "kepler"]
 	path = kepler
 	url = git://github.com/LuaDist/kepler.git
