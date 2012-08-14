@@ -139,9 +139,6 @@
 [submodule "luazip"]
 	path = luazip
 	url = git://github.com/LuaDist/luazip.git
-[submodule "luaxmlrpc"]
-	path = luaxmlrpc
-	url = git://github.com/LuaDist/luaxmlrpc.git
 [submodule "luaxml"]
 	path = luaxml
 	url = git://github.com/LuaDist/luaxml.git
@@ -652,3 +649,6 @@
 [submodule "orbit"]
 	path = orbit
 	url = git://github.com/LuaDist/orbit.git
+[submodule "lua-xmlrpc"]
+	path = lua-xmlrpc
+	url = git://github.com/LuaDist/lua-xmlrpc.git
