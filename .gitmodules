@@ -652,3 +652,6 @@
 [submodule "lua-xmlrpc"]
 	path = lua-xmlrpc
 	url = git://github.com/LuaDist/lua-xmlrpc.git
+[submodule "mk"]
+	path = mk
+	url = git://github.com/LuaDist/mk.git
