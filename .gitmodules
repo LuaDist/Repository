@@ -19,9 +19,6 @@
 [submodule "wsapi-xavante"]
 	path = wsapi-xavante
 	url = git://github.com/LuaDist/wsapi-xavante.git
-[submodule "wsapi-fcgi"]
-	path = wsapi-fcgi
-	url = git://github.com/LuaDist/wsapi-fcgi.git
 [submodule "versium"]
 	path = versium
 	url = git://github.com/LuaDist/versium.git
@@ -385,9 +382,6 @@
 [submodule "kepler-xavante"]
 	path = kepler-xavante
 	url = git://github.com/LuaDist/kepler-xavante.git
-[submodule "kepler-fastcgi"]
-	path = kepler-fastcgi
-	url = git://github.com/LuaDist/kepler-fastcgi.git
 [submodule "kepler"]
 	path = kepler
 	url = git://github.com/LuaDist/kepler.git
