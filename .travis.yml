@@ -9,9 +9,9 @@ language: C
 install:
   - sudo apt-get -qq install cmake >/dev/null 2>&1
 
-# Make sure bootstrap works
+# Make sure installing works
 script:
-  - ./install bootstrap
+  - ./install lua
 
 # List bootstrap modules
 after_script:
