@@ -655,3 +655,6 @@
 [submodule "mk"]
 	path = mk
 	url = git://github.com/LuaDist/mk.git
+[submodule "wsapi_basic_auth"]
+	path = wsapi_basic_auth
+	url = git://github.com/LuaDist/wsapi_basic_auth.git
