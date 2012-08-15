@@ -2,20 +2,20 @@
 # LuaDist Travis-CI Hook
 #
 
-# Since CMake is not directly supported we use erlang VMs
+# Use VMs for C
 language: C
 
-# We need CMake and LuaDist
+# We need CMake
 install:
-  - sudo apt-get install cmake >/dev/null 2>&1
+  - sudo apt-get -qq install cmake >/dev/null 2>&1
 
-# Run the lazy install one-liner
+# Make sure bootstrap works
 script:
-  - echo "$(curl -fksSL https://raw.github.com/gist/2394281/luadist.sh)" | bash
+  - ./install bootstrap
 
-# Execute additional tests or commands
+# List bootstrap modules
 after_script:
-  - LuaDist-batteries/bin/luadist list
+  - _install/bin/luadist list
 
 # Only watch the master branch
 branches:
