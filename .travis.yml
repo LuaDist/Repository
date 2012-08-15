@@ -15,7 +15,7 @@ script:
 
 # List bootstrap modules
 after_script:
-  - _install/bin/luadist list
+  - _install/bin/lua -e "print(_VERSION)"
 
 # Only watch the master branch
 branches:
