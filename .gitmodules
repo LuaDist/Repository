@@ -658,3 +658,6 @@
 [submodule "wsapi_basic_auth"]
 	path = wsapi_basic_auth
 	url = git://github.com/LuaDist/wsapi_basic_auth.git
+[submodule "lapack"]
+	path = lapack
+	url = git://github.com/LuaDist/lapack.git
