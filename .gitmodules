@@ -646,3 +646,18 @@
 [submodule "lapack"]
 	path = lapack
 	url = git://github.com/LuaDist/lapack.git
+[submodule "lua-uri"]
+	path = lua-uri
+	url = git@github.com:LuaDist/lua-uri.git
+[submodule "lua-signal"]
+	path = lua-signal
+	url = git@github.com:LuaDist/lua-signal.git
+[submodule "lua-tinycdb"]
+	path = lua-tinycdb
+	url = git@github.com:LuaDist/lua-tinycdb.git
+[submodule "lua-memoryfile"]
+	path = lua-memoryfile
+	url = git@github.com:LuaDist/lua-memoryfile.git
+[submodule "lua-discount"]
+	path = lua-discount
+	url = git@github.com:LuaDist/lua-discount.git
