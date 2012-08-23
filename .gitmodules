@@ -253,21 +253,6 @@
 [submodule "luabind"]
 	path = luabind
 	url = git://github.com/LuaDist/luabind.git
-[submodule "lua_uri"]
-	path = lua_uri
-	url = git://github.com/LuaDist/lua_uri.git
-[submodule "lua_tinycdb"]
-	path = lua_tinycdb
-	url = git://github.com/LuaDist/lua_tinycdb.git
-[submodule "lua_signal"]
-	path = lua_signal
-	url = git://github.com/LuaDist/lua_signal.git
-[submodule "lua_memoryfile"]
-	path = lua_memoryfile
-	url = git://github.com/LuaDist/lua_memoryfile.git
-[submodule "lua_discount"]
-	path = lua_discount
-	url = git://github.com/LuaDist/lua_discount.git
 [submodule "lua-xmlreader"]
 	path = lua-xmlreader
 	url = git://github.com/LuaDist/lua-xmlreader.git
