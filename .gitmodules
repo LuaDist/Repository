@@ -655,3 +655,6 @@
 [submodule "lua-tokyocabinet"]
 	path = lua-tokyocabinet
 	url = git://github.com/LuaDist/lua-tokyocabinet.git
+[submodule "luasql"]
+	path = luasql
+	url = git://github.com/LuaDist/luasql.git
