@@ -142,9 +142,6 @@
 [submodule "luaunit"]
 	path = luaunit
 	url = git://github.com/LuaDist/luaunit.git
-[submodule "luatokenf"]
-	path = luatokenf
-	url = git://github.com/LuaDist/luatokenf.git
 [submodule "luatask"]
 	path = luatask
 	url = git://github.com/LuaDist/luatask.git
