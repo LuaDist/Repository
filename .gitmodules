@@ -655,3 +655,6 @@
 [submodule "lua-discount"]
 	path = lua-discount
 	url = git://github.com/LuaDist/lua-discount.git
+[submodule "lua-tokyocabinet"]
+	path = lua-tokyocabinet
+	url = git://github.com/LuaDist/lua-tokyocabinet.git
