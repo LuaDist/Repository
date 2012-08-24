@@ -28,9 +28,6 @@
 [submodule "toluapp"]
 	path = toluapp
 	url = git://github.com/LuaDist/toluapp.git
-[submodule "tokyocabinet_lua"]
-	path = tokyocabinet_lua
-	url = git://github.com/LuaDist/tokyocabinet_lua.git
 [submodule "tokyocabinet"]
 	path = tokyocabinet
 	url = git://github.com/LuaDist/tokyocabinet.git
