@@ -412,9 +412,6 @@
 [submodule "concurrentlua"]
 	path = concurrentlua
 	url = git://github.com/LuaDist/concurrentlua.git
-[submodule "cmake"]
-	path = cmake
-	url = git://github.com/LuaDist/cmake.git
 [submodule "classlib"]
 	path = classlib
 	url = git://github.com/LuaDist/classlib.git
