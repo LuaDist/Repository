@@ -24,10 +24,10 @@ git submodule update --init --recursive bootstrap
 Once the installation finishes the LuaDist folder should contain a fully versioned LuaDist distribution.
 
 ```bash
-cd _install
-./bin/luadist list # lists installed modules
-./bin/luadist search # lists online repository
-./bin/luadist install luaexpat # installs luaexpat
+cd _install/bin
+./luadist list # lists installed modules
+./luadist search # lists online repository
+./luadist install luaexpat # installs luaexpat
 ```
 
 Using the install script to generate distribution without versioning.
@@ -55,15 +55,13 @@ To clone the full repository:
 ```bash	
 git clone git://github.com/LuaDist/Repository.git
 cd Repository
-git submodule init
-git submodule update
+git submodule update --init --recursive
 ```
 
 To clone individual modules you can specify the module name as follows:
 
 ```bash
-git submodule init lua
-git submodule update lua
+git submodule update --init --recursive lua
 ```
 
 Note that submodules do not point to latest versions of modules but rather to _stable_ versions. To update to latest version do:
