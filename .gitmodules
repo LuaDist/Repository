@@ -655,3 +655,24 @@
 [submodule "luasql"]
 	path = luasql
 	url = git://github.com/LuaDist/luasql.git
+[submodule "freetype"]
+	path = freetype
+	url = git://github.com/LuaDist/freetype.git
+[submodule "im"]
+	path = im
+	url = git://github.com/LuaDist/im.git
+[submodule "iup"]
+	path = iup
+	url = git://github.com/LuaDist/iup.git
+[submodule "cd"]
+	path = cd
+	url = git://github.com/LuaDist/cd.git
+[submodule "cd-examples"]
+	path = cd-examples
+	url = git://github.com/LuaDist/cd-examples.git
+[submodule "im-examples"]
+	path = im-examples
+	url = git://github.com/LuaDist/im-examples.git
+[submodule "iup-examples"]
+	path = iup-examples
+	url = git://github.com/LuaDist/iup-examples.git
