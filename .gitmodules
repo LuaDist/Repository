@@ -676,3 +676,6 @@
 [submodule "iup-examples"]
 	path = iup-examples
 	url = git://github.com/LuaDist/iup-examples.git
+[submodule "squish"]
+	path = squish
+	url = git://github.com/LuaDist/squish.git
