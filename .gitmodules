@@ -679,3 +679,6 @@
 [submodule "squish"]
 	path = squish
 	url = git://github.com/LuaDist/squish.git
+[submodule "luapgsql"]
+	path = luapgsql
+	url = git://github.com/LuaDist/luapgsql.git
