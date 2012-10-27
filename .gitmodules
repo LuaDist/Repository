@@ -682,3 +682,6 @@
 [submodule "luapgsql"]
 	path = luapgsql
 	url = git://github.com/LuaDist/luapgsql.git
+[submodule "sigar"]
+	path = sigar
+	url = git://github.com/LuaDist/sigar.git
