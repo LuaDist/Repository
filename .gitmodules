@@ -685,3 +685,21 @@
 [submodule "sigar"]
 	path = sigar
 	url = git://github.com/LuaDist/sigar.git
+[submodule "lrexlib-tre"]
+	path = lrexlib-tre
+	url = git://github.com/LuaDist/lrexlib-tre.git
+[submodule "lrexlib-oniguruma"]
+	path = lrexlib-oniguruma
+	url = git://github.com/LuaDist/lrexlib-oniguruma.git
+[submodule "lrexlib-gnu"]
+	path = lrexlib-gnu
+	url = git://github.com/LuaDist/lrexlib-gnu.git
+[submodule "lrexlib-pcre"]
+	path = lrexlib-pcre
+	url = git://github.com/LuaDist/lrexlib-pcre.git
+[submodule "lrexlib-posix"]
+	path = lrexlib-posix
+	url = git://github.com/LuaDist/lrexlib-posix.git
+[submodule "tre"]
+	path = tre
+	url = git://github.com/LuaDist/tre.git
