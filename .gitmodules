@@ -703,3 +703,9 @@
 [submodule "tre"]
 	path = tre
 	url = git://github.com/LuaDist/tre.git
+[submodule "ninja"]
+	path = ninja
+	url = git://github.com/LuaDist/ninja.git
+[submodule "lua-git"]
+	path = lua-git
+	url = git://github.com/LuaDist/lua-git.git
