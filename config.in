@@ -34,3 +34,5 @@ set ( SKIP_INSTALL_TEST OFF CACHE STRING "Do not install tests." FORCE )
 set ( SKIP_INSTALL_FOO OFF CACHE STRING "Do not install additional files." FORCE )
 
 # Other (eg. cross-compile settings)
+#set ( LUA_STATIC_MODULE True CACHE STRING "Build static modules." FORCE )
+#set ( BUILD_SHARED_LIBS False CACHE STRING "Build shared libs." FORCE )
