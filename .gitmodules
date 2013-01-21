@@ -709,3 +709,6 @@
 [submodule "lua-git"]
 	path = lua-git
 	url = git://github.com/LuaDist/lua-git.git
+[submodule "mobdebug"]
+	path = mobdebug
+	url = git://github.com/LuaDist/mobdebug.git
