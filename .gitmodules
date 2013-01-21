@@ -712,3 +712,6 @@
 [submodule "mobdebug"]
 	path = mobdebug
 	url = git://github.com/LuaDist/mobdebug.git
+[submodule "zerobranestudio"]
+	path = zerobranestudio
+	url = git://github.com/LuaDist/zerobranestudio.git
