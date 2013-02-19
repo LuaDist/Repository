@@ -721,3 +721,6 @@
 [submodule "ansicolors"]
 	path = ansicolors
 	url = git://github.com/LuaDist/ansicolors.git
+[submodule "asklua"]
+	path = asklua
+	url = git://github.com/LuaDist/asklua.git
