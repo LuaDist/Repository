@@ -724,3 +724,6 @@
 [submodule "asklua"]
 	path = asklua
 	url = git://github.com/LuaDist/asklua.git
+[submodule "winapi"]
+	path = winapi
+	url = git://github.com/LuaDist/winapi.git
