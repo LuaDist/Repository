@@ -724,3 +724,6 @@
 [submodule "asklua"]
 	path = asklua
 	url = git://github.com/LuaDist/asklua.git
+[submodule "luadist-activate"]
+	path = luadist-activate
+	url = git://github.com/LuaDist/luadist-activate.git
