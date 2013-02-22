@@ -727,3 +727,6 @@
 [submodule "luadist-activate"]
 	path = luadist-activate
 	url = git://github.com/LuaDist/luadist-activate.git
+[submodule "winapi"]
+	path = winapi
+	url = git://github.com/LuaDist/winapi.git
