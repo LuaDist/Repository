@@ -733,3 +733,6 @@
 [submodule "bencode"]
 	path = bencode
 	url = git://github.com/LuaDist/bencode.git
+[submodule "bit32"]
+	path = bit32
+	url = git://github.com/LuaDist/bit32.git
