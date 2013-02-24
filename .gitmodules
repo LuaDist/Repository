@@ -718,3 +718,6 @@
 [submodule "30log"]
 	path = 30log
 	url = git://github.com/LuaDist/30log.git
+[submodule "bencode"]
+	path = bencode
+	url = git://github.com/LuaDist/bencode.git
