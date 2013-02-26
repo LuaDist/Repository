@@ -703,3 +703,36 @@
 [submodule "tre"]
 	path = tre
 	url = git://github.com/LuaDist/tre.git
+[submodule "ninja"]
+	path = ninja
+	url = git://github.com/LuaDist/ninja.git
+[submodule "lua-git"]
+	path = lua-git
+	url = git://github.com/LuaDist/lua-git.git
+[submodule "mobdebug"]
+	path = mobdebug
+	url = git://github.com/LuaDist/mobdebug.git
+[submodule "zerobranestudio"]
+	path = zerobranestudio
+	url = git://github.com/LuaDist/zerobranestudio.git
+[submodule "30log"]
+	path = 30log
+	url = git://github.com/LuaDist/30log.git
+[submodule "ansicolors"]
+	path = ansicolors
+	url = git://github.com/LuaDist/ansicolors.git
+[submodule "asklua"]
+	path = asklua
+	url = git://github.com/LuaDist/asklua.git
+[submodule "luadist-activate"]
+	path = luadist-activate
+	url = git://github.com/LuaDist/luadist-activate.git
+[submodule "winapi"]
+	path = winapi
+	url = git://github.com/LuaDist/winapi.git
+[submodule "bencode"]
+	path = bencode
+	url = git://github.com/LuaDist/bencode.git
+[submodule "bit32"]
+	path = bit32
+	url = git://github.com/LuaDist/bit32.git

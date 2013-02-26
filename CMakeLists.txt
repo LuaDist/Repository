@@ -26,7 +26,7 @@ configure_file ( config.in ${CMAKE_CURRENT_BINARY_DIR}/config.cmake )
 ## EXTERNAL PROJECTS
 # Download and build external project using generated cache
 macro ( install_dist _DIST )
-  string ( REGEX MATCH "^([a-z]+[a-z0-9_.:-]*[a-z0-9]+)-?([^-]*)$" _DIST_NAME ${_DIST} )
+  string ( REGEX MATCH "^([a-z0-9]+[a-z0-9_.:-]*[a-z0-9]+)-?([^-]*)$" _DIST_NAME ${_DIST} )
   set ( _DIST_NAME ${CMAKE_MATCH_1} )
   set ( _DIST_VER ${CMAKE_MATCH_2} )
 
