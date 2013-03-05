@@ -736,3 +736,18 @@
 [submodule "bit32"]
 	path = bit32
 	url = git://github.com/LuaDist/bit32.git
+[submodule "busted"]
+	path = busted
+	url = git://github.com/LuaDist/busted.git
+[submodule "lua_cliargs"]
+	path = lua_cliargs
+	url = git://github.com/LuaDist/lua_cliargs.git
+[submodule "dkjson"]
+	path = dkjson
+	url = git://github.com/LuaDist/dkjson.git
+[submodule "say"]
+	path = say
+	url = git://github.com/LuaDist/say.git
+[submodule "luassert"]
+	path = luassert
+	url = git://github.com/LuaDist/luassert.git
