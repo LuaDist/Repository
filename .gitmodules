@@ -751,3 +751,6 @@
 [submodule "luassert"]
 	path = luassert
 	url = git://github.com/LuaDist/luassert.git
+[submodule "lua-zlib"]
+	path = lua-zlib
+	url = git://github.com/LuaDist/lua-zlib.git
