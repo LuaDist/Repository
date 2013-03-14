@@ -754,3 +754,6 @@
 [submodule "lua-zlib"]
 	path = lua-zlib
 	url = git://github.com/LuaDist/lua-zlib.git
+[submodule "intellua"]
+	path = intellua
+	url = git://github.com/LuaDist/intellua.git
