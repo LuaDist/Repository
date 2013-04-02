@@ -757,3 +757,6 @@
 [submodule "intellua"]
 	path = intellua
 	url = git://github.com/LuaDist/intellua.git
+[submodule "lsocket"]
+	path = lsocket
+	url = git://github.com/LuaDist/lsocket.git
