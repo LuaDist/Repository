@@ -760,3 +760,6 @@
 [submodule "lsocket"]
 	path = lsocket
 	url = git://github.com/LuaDist/lsocket.git
+[submodule "lpty"]
+	path = lpty
+	url = git://github.com/LuaDist/lpty.git
