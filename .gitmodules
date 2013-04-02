@@ -763,3 +763,9 @@
 [submodule "lpty"]
 	path = lpty
 	url = git://github.com/LuaDist/lpty.git
+[submodule "lub"]
+	path = lub
+	url = git://github.com/LuaDist/lub.git
+[submodule "lut"]
+	path = lut
+	url = git://github.com/LuaDist/lut.git
