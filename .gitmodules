@@ -769,3 +769,6 @@
 [submodule "lut"]
 	path = lut
 	url = git://github.com/LuaDist/lut.git
+[submodule "lua-websockets"]
+	path = lua-websockets
+	url = git://github.com/LuaDist/lua-websockets.git
