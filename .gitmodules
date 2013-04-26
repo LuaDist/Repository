@@ -772,3 +772,6 @@
 [submodule "lua-websockets"]
 	path = lua-websockets
 	url = git://github.com/LuaDist/lua-websockets.git
+[submodule "libev"]
+	path = libev
+	url = git://github.com/LuaDist/libev.git
