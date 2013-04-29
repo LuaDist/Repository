@@ -775,3 +775,6 @@
 [submodule "libev"]
 	path = libev
 	url = git://github.com/LuaDist/libev.git
+[submodule "lua-ev"]
+	path = lua-ev
+	url = git://github.com/LuaDist/lua-ev.git
