@@ -778,3 +778,6 @@
 [submodule "lua-ev"]
 	path = lua-ev
 	url = git://github.com/LuaDist/lua-ev.git
+[submodule "luadist"]
+	path = luadist
+	url = git://github.com/LuaDist/luadist.git
