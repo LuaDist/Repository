@@ -787,3 +787,6 @@
 [submodule "libsophia"]
 	path = libsophia
 	url = git://github.com/LuaDist/libsophia
+[submodule "lua-sophia"]
+	path = lua-sophia
+	url = git://github.com/LuaDist/lua-sophia
