@@ -791,4 +791,5 @@
 	path = lua-sophia
 	url = git://github.com/LuaDist/lua-sophia.git
 [submodule "mingw"]
+	url = git://github.com/LuaDist/mingw.git
 	path = mingw
