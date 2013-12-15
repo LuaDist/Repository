@@ -1,4 +1,4 @@
-:: Copyright (C) 2011 LuaDist
+:: Copyright (C) 2011-2013 LuaDist
 :: Redistribution and use of this file is allowed according to the terms of the MIT license.
 :: For details see the COPYRIGHT file distributed with LuaDist.
 :: Please note that the package source code is licensed under its own license.
@@ -7,7 +7,7 @@
 :: In case it is called in the repository it will install into _install folder
 @echo off
 setlocal
-set CMAKE=C:\PROGRA~2\CMAKE2~1.8\bin\cmake
+set CMAKE=cmake
 set REPO=%~dp0
 set REPO=%REPO:~0,-1%
 set DEPL=%CD%
