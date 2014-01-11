@@ -793,3 +793,6 @@
 [submodule "mingw"]
 	url = git://github.com/LuaDist/mingw.git
 	path = mingw
+[submodule "lua-llthreads"]
+	path = lua-llthreads
+	url = git://github.com/LuaDist/lua-llthreads.git
