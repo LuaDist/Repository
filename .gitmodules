@@ -796,3 +796,6 @@
 [submodule "lua-llthreads"]
 	path = lua-llthreads
 	url = git://github.com/LuaDist/lua-llthreads.git
+[submodule "xml"]
+	path = xml
+	url = git://github.com/LuaDist/xml.git
