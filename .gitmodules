@@ -820,3 +820,9 @@
 [submodule "lua-pop3"]
 	path = lua-pop3
 	url = git://github.com/LuaDist/lua-pop3.git
+[submodule "lua-path"]
+	path = lua-path
+	url = git://github.com/LuaDist/lua-path.git
+[submodule "struct"]
+	path = struct
+	url = git://github.com/LuaDist/struct.git
