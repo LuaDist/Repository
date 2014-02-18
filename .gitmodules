@@ -826,3 +826,15 @@
 [submodule "struct"]
 	path = struct
 	url = git://github.com/LuaDist/struct.git
+[submodule "lzmq"]
+	path = lzmq
+	url = git://github.com/LuaDist/lzmq.git
+[submodule "lua-odbc"]
+	path = lua-odbc
+	url = git://github.com/LuaDist/lua-odbc.git
+[submodule "ZipWriter"]
+	path = ZipWriter
+	url = git://github.com/LuaDist/ZipWriter.git
+[submodule "lzmq-ffi"]
+	path = lzmq-ffi
+	url = git://github.com/LuaDist/lzmq-ffi.git
