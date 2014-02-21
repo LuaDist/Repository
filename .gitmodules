@@ -838,3 +838,9 @@
 [submodule "lzmq-ffi"]
 	path = lzmq-ffi
 	url = git://github.com/LuaDist/lzmq-ffi.git
+[submodule "lualiterate"]
+	path = lualiterate
+	url = git@github.com:LuaDist/lualiterate.git
+[submodule "luacomments"]
+	path = luacomments
+	url = git@github.com:LuaDist/luacomments.git
