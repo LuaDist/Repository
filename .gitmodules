@@ -844,3 +844,6 @@
 [submodule "luacomments"]
 	path = luacomments
 	url = git://github.com/LuaDist/luacomments.git
+[submodule "sdl"]
+	path = sdl
+	url = git://github.com/LuaDist/sdl.git
