@@ -847,3 +847,9 @@
 [submodule "sdl"]
 	path = sdl
 	url = git://github.com/LuaDist/sdl.git
+[submodule "lutok"]
+	path = lutok
+	url = git://github.com/LuaDist/lutok.git
+[submodule "xlsxwriter"]
+	path = xlsxwriter
+	url = git://github.com/LuaDist/xlsxwriter.git
