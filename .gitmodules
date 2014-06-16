@@ -853,3 +853,9 @@
 [submodule "xlsxwriter"]
 	path = xlsxwriter
 	url = git://github.com/LuaDist/xlsxwriter.git
+[submodule "basexx"]
+	path = basexx
+	url = git://github.com/LuaDist/basexx.git
+[submodule "lua-cmsgpack"]
+	path = lua-cmsgpack
+	url = git://github.com/LuaDist/lua-cmsgpack.git
