@@ -859,3 +859,6 @@
 [submodule "lua-cmsgpack"]
 	path = lua-cmsgpack
 	url = git://github.com/LuaDist/lua-cmsgpack.git
+[submodule "tolua"]
+	path = tolua
+	url = git://github.com/LuaDist/tolua.git
