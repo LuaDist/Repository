@@ -862,3 +862,6 @@
 [submodule "tolua"]
 	path = tolua
 	url = git://github.com/LuaDist/tolua.git
+[submodule "getdoc"]
+	path = getdoc
+	url = git@github.com:LuaDist/getdoc.git
