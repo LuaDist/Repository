@@ -868,3 +868,6 @@
 [submodule "mediator_lua"]
 	path = mediator_lua
 	url = git@github.com:LuaDist/mediator_lua.git
+[submodule "lua-plantuml"]
+	path = lua-plantuml
+	url = ./lua-plantuml
