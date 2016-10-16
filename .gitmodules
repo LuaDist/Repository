@@ -871,3 +871,6 @@
 [submodule "lua-plantuml"]
 	path = lua-plantuml
 	url = ./lua-plantuml
+[submodule "StackTracePlus"]
+	path = StackTracePlus
+	url = git@github.com:LuaDist/StackTracePlus.git
