@@ -874,3 +874,9 @@
 [submodule "StackTracePlus"]
 	path = StackTracePlus
 	url = git@github.com:LuaDist/StackTracePlus.git
+[submodule "luasystem"]
+	path = luasystem
+	url = git@github.com:LuaDist/luasystem.git
+[submodule "lua-term"]
+	path = lua-term
+	url = git@github.com:LuaDist/lua-term.git
