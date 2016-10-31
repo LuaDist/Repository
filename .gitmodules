@@ -880,3 +880,6 @@
 [submodule "lua-term"]
 	path = lua-term
 	url = git@github.com:LuaDist/lua-term.git
+[submodule "luacheck"]
+	path = luacheck
+	url = git@github.com:LuaDist/luacheck.git
