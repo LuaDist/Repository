@@ -883,3 +883,6 @@
 [submodule "luacheck"]
 	path = luacheck
 	url = git@github.com:LuaDist/luacheck.git
+[submodule "lua-resty-template"]
+	path = lua-resty-template
+	url = git@github.com:LuaDist/lua-resty-template.git
