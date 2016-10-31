@@ -870,7 +870,7 @@
 	url = git@github.com:LuaDist/mediator_lua.git
 [submodule "lua-plantuml"]
 	path = lua-plantuml
-	url = ./lua-plantuml
+	url = git@github.com:LuaDist/lua-plantuml.git
 [submodule "StackTracePlus"]
 	path = StackTracePlus
 	url = git@github.com:LuaDist/StackTracePlus.git
