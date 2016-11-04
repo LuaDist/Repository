@@ -864,25 +864,25 @@
 	url = git://github.com/LuaDist/tolua.git
 [submodule "getdoc"]
 	path = getdoc
-	url = git@github.com:LuaDist/getdoc.git
+	url = git://github.com/LuaDist/getdoc.git
 [submodule "mediator_lua"]
 	path = mediator_lua
-	url = git@github.com:LuaDist/mediator_lua.git
+	url = git://github.com/LuaDist/mediator_lua.git
 [submodule "lua-plantuml"]
 	path = lua-plantuml
-	url = git@github.com:LuaDist/lua-plantuml.git
+	url = git://github.com/LuaDist/lua-plantuml.git
 [submodule "StackTracePlus"]
 	path = StackTracePlus
-	url = git@github.com:LuaDist/StackTracePlus.git
+	url = git://github.com/LuaDist/StackTracePlus.git
 [submodule "luasystem"]
 	path = luasystem
-	url = git@github.com:LuaDist/luasystem.git
+	url = git://github.com/LuaDist/luasystem.git
 [submodule "lua-term"]
 	path = lua-term
-	url = git@github.com:LuaDist/lua-term.git
+	url = git://github.com/LuaDist/lua-term.git
 [submodule "luacheck"]
 	path = luacheck
-	url = git@github.com:LuaDist/luacheck.git
+	url = git://github.com/LuaDist/luacheck.git
 [submodule "lua-resty-template"]
 	path = lua-resty-template
-	url = git@github.com:LuaDist/lua-resty-template.git
+	url = git://github.com/LuaDist/lua-resty-template.git
